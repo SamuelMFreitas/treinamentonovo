@@ -20,7 +20,7 @@ namespace EFCoreTutorialsConsole
 
         private static void ListarEstadoDetachedEntidade()
         {
-            var disconnectedEntity = new Student() { StudentId = 1, Name = "Bill" };
+            var disconnectedEntity = new Student() { StudentId = 1, FirstName = "Bill" };
 
             using (var context = new SchoolContext())
             {
